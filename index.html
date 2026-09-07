@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Untuk Nasythaa</title>
+<meta name="description" content="Sebuah surat untuk Nasythaa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="stars-canvas" aria-hidden="true"></canvas>
+<div id="nebula-glow" aria-hidden="true"></div>
+
+<main id="app">
+
+  <!-- OPENING: ENVELOPE -->
+  <section class="scene" id="scene-opening" data-scene="opening">
+    <div class="opening-inner">
+      <p class="eyebrow-line">sebuah surat untuk</p>
+      <div class="envelope-wrap" id="envelope-wrap" role="button" tabindex="0" aria-label="Buka surat">
+        <div class="envelope" id="envelope">
+          <div class="envelope-shadow"></div>
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">
+            <span>N</span>
+          </div>
+          <div class="envelope-front-left"></div>
+          <div class="envelope-front-right"></div>
+        </div>
+      </div>
+      <p class="hint" id="hint-text">ketuk amplopnya, sayang</p>
+    </div>
+  </section>
+
+  <!-- SCENE 1 -->
+  <section class="scene" id="scene-1" data-scene="1">
+    <div class="letter">
+      <p class="body-line">Hai, sayang...</p>
+      <p class="body-line">Ada sesuatu yang ingin aku sampaikan.</p>
+      <p class="body-line">Bukan sekadar kata&#8209;kata biasa,<br>tapi sesuatu yang sudah lama ingin aku ungkapkan padamu.</p>
+      <p class="body-line">Duduk dulu sebentar, ya?<br>Ikuti aku menyusuri bintang&#8209;bintang ini,<br>karena aku ingin membawamu ke tempat di mana hatiku berada.</p>
+      <p class="body-line accent-en">I have something for you.</p>
+      <button class="next-btn" data-next="2">Lanjut <span class="spark">&#10022;</span></button>
+    </div>
+  </section>
+
+  <!-- SCENE 2 -->
+  <section class="scene" id="scene-2" data-scene="2">
+    <div class="letter">
+      <p class="body-line">Kamu tahu tidak?</p>
+      <p class="body-line">Di antara semua bintang di langit ini,<br>tidak ada satu pun yang bisa menandingi caramu bersinar untukku.</p>
+      <p class="body-line">Kamu itu&hellip; imut, kadang lucu tanpa sadar,<br>dan cantik dengan cara yang membuatku selalu terdiam sejenak.<br>Hal&#8209;hal kecil tentangmu, yang mungkin kamu anggap biasa saja,<br>justru menjadi hal yang paling aku sukai.</p>
+      <p class="body-line accent-en">You're my favorite star in this sky.</p>
+      <p class="body-line">Kamu spesial. Bukan karena kamu sempurna,<br>tapi karena kamu adalah kamu.</p>
+      <button class="next-btn" data-next="3">Lanjut <span class="spark">&#10022;</span></button>
+    </div>
+  </section>
+
+  <!-- SCENE 3 -->
+  <section class="scene" id="scene-3" data-scene="3">
+    <div class="letter">
+      <p class="body-line">Aku ingin kamu tahu satu hal ini dengan pasti:<br>aku sayang kamu. Sungguh&#8209;sungguh sayang.</p>
+      <p class="body-line">Bukan sayang yang biasa saja,<br>tapi sayang yang membuatku selalu ingin memastikan kamu baik&#8209;baik saja,<br>yang membuatku tersenyum sendiri saat mengingat kamu,<br>dan yang membuatku bersyukur setiap kali kamu ada di sisiku.</p>
+      <p class="body-line accent-en">You mean more to me than words can say.</p>
+      <p class="body-line">Kalau bintang&#8209;bintang ini bisa bicara,<br>mereka pasti akan bilang bahwa cahayanya kalah terang<br>dibanding rasa sayangku padamu.</p>
+      <button class="next-btn" data-next="4">Lanjut <span class="spark">&#10022;</span></button>
+    </div>
+  </section>
+
+  <!-- SCENE 4: ENDING -->
+  <section class="scene" id="scene-4" data-scene="4">
+    <div class="letter letter-ending">
+      <p class="body-line">Terima kasih sudah membaca sampai sini, sayang.</p>
+      <p class="body-line">Ini semua tulus dari hatiku,<br>untuk kamu, di bawah langit bintang yang sama.</p>
+      <p class="body-line accent-en">Forever grateful to have you.</p>
+      <p class="body-line">Semoga kamu selalu tahu,<br>bahwa ada seseorang yang menyayangimu dengan sepenuh hati.</p>
+      <p class="signoff">Dengan cinta,</p>
+      <p class="signature">Ega Belva</p>
+      <div class="ending-stars" aria-hidden="true">&#10022;</div>
+    </div>
+  </section>
+
+</main>
+
+<div id="transition-veil" aria-hidden="true"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
