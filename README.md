@@ -64,55 +64,6 @@ Tidak menggunakan:
 
 Website dapat langsung dijalankan dengan membuka `index.html` atau melalui GitHub Pages.
 
-## 🚀 Deploy ke GitHub Pages
-
-1. Buat repository baru di GitHub.
-2. Upload seluruh file project ke repository.
-3. Pastikan **`index.html` berada di root repository**.
-4. Buka **Settings → Pages**.
-5. Pada bagian **Build and deployment**, pilih:
-
-   * Source: `Deploy from a branch`
-   * Branch: `main`
-   * Folder: `/ (root)`
-6. Klik **Save**.
-7. Tunggu beberapa saat hingga GitHub Pages selesai melakukan deployment.
-8. GitHub akan memberikan alamat website dengan format:
-
-```text
-https://username.github.io/nama-repository/
-```
-
-Setelah aktif, buka link tersebut untuk memastikan website berjalan dengan baik.
-
-## 💌 Customization
-
-Semua teks surat berada di dalam:
-
-```text
-index.html
-```
-
-Jadi, jika ingin mengganti atau memperbarui kata-kata untuk Nasythaa, cukup edit file tersebut.
-
-Untuk mengubah tampilan seperti warna, font, dan beberapa pengaturan visual, edit:
-
-```text
-css/style.css
-```
-
-Untuk mengubah interaksi dan animasi, edit:
-
-```text
-js/script.js
-```
-
-## 📱 Responsive
-
-Website dirancang agar tetap nyaman digunakan pada berbagai ukuran layar, terutama **smartphone dalam mode portrait**.
-
-Website juga mendukung `prefers-reduced-motion`. Jika perangkat pengguna mengaktifkan pengaturan untuk mengurangi animasi, beberapa animasi dan transisi akan dibuat lebih ringan.
-
 ---
 
 ### 🌙 Made with love
